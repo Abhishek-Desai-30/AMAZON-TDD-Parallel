@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCase.YoutubeTest">
+      <class name="testCase.LandingPageTest2">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="test1"/>
           <include name="beforeMethodInit"/>
           <include name="setupURL"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testCase.YoutubeTest -->
+      </class> <!-- testCase.LandingPageTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

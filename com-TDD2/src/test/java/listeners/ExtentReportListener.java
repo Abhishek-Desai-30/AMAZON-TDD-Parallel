@@ -20,7 +20,7 @@ import driverManager.CreateDriver;
 public class ExtentReportListener implements ITestListener {
 
 	private static ExtentReports extent;
-	private static final ThreadLocal<ExtentTest> test = new ThreadLocal<>();
+	private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 	private WebDriver driver;
 
 	public static ExtentReports getExtentReports() {
@@ -58,7 +58,8 @@ public class ExtentReportListener implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-
+			
+		 ExtentTest extenttest = ExtentReportListener.getTest();
             try {
                 driver = CreateDriver.getInstance().getDriver();
                 String base64Screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
@@ -66,7 +67,7 @@ public class ExtentReportListener implements ITestListener {
                 	fail(result.getThrowable(), 
                     MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
             } catch (Exception e) {
-                test.get().fail("Test failed but screenshot capture failed: " + e.getMessage());
+            	System.out.println("Test failed but screenshot capture failed: " + e.getMessage());
             }
         
 	}
@@ -87,6 +88,10 @@ public class ExtentReportListener implements ITestListener {
 	
 	public static void setTest(ExtentTest testInstance) {
         test.set(testInstance);
+    }
+	
+	public static void remove() {
+		test.remove();
     }
 
 }
