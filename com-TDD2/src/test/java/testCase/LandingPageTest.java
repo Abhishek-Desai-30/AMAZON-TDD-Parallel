@@ -2,13 +2,11 @@ package testCase;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import driverManager.Base;
-import driverManager.CreateDriver;
 
 @Listeners(listeners.ExtentReportListener.class)
 public class LandingPageTest extends Base {
@@ -34,10 +32,7 @@ public class LandingPageTest extends Base {
 		Assert.assertEquals(landpg.trendingText(), "Trending");
 	}
 	
-	@AfterClass
-	public void tearDown() {
-		CreateDriver.getInstance().quitDriver();
-	}
+
 	
 
 }

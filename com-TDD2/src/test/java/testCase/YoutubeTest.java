@@ -1,11 +1,9 @@
 package testCase;
 
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import driverManager.Base;
-import driverManager.CreateDriver;
 
 public class YoutubeTest  extends Base {
 	
@@ -19,9 +17,4 @@ public class YoutubeTest  extends Base {
 		ytpg.ytHistory();
 	}
 	
-	@AfterClass
-	public void tearDown() {
-		CreateDriver.getInstance().quitDriver();
-	}
-
 }
