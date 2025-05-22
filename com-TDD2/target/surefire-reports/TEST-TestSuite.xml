@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.716" tests="7" errors="0" skipped="3" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\abhis\.cache\selenium\chromedriver\win64\136.0.7103.113\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\abhis\git\AMAZON-TDD-Parallel2\com-TDD2\target\test-classes;C:\Users\abhis\git\AMAZON-TDD-Parallel2\com-TDD2\target\classes;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\abhis\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\abhis\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\abhis\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abhis\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abhis\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\abhis\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\abhis\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\abhis\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\abhis\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\abhis\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\abhis\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\abhis\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\abhis\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\abhis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\abhis\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\abhis\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\abhis\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\abhis\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\abhis\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\abhis\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\abhis\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\abhis\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\abhis\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\abhis\AppData\Local\Temp\surefire17925638909395187455\surefirebooter-20250521232114578_3.jar C:\Users\abhis\AppData\Local\Temp\surefire17925638909395187455 2025-05-21T23-21-14_174-jvmRun1 surefire-20250521232114578_1tmp surefire_0-20250521232114578_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\abhis\git\AMAZON-TDD-Parallel2\com-TDD2\target\test-classes;C:\Users\abhis\git\AMAZON-TDD-Parallel2\com-TDD2\target\classes;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\abhis\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\abhis\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\abhis\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abhis\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\abhis\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\abhis\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\abhis\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\abhis\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\abhis\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\abhis\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\abhis\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\abhis\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\abhis\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\abhis\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\abhis\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\abhis\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\abhis\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\abhis\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\abhis\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\abhis\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\abhis\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\abhis\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\abhis\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\abhis\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\abhis\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\abhis\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\abhis\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\abhis\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\abhis\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\abhis\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\abhis\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abhis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\abhis\git\AMAZON-TDD-Parallel2\com-TDD2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhis\AppData\Local\Temp\surefire17925638909395187455\surefirebooter-20250521232114578_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="webdriver.edge.driver" value=".\src\test\resources\msedgedriver.exe"/>
+    <property name="user.name" value="abhis"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\abhis\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abhis\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\abhis\git\AMAZON-TDD-Parallel2\com-TDD2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/abhis/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin/server;C:/Users/abhis/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\abhis\AppData\Local\Microsoft\WindowsApps;;C:\Users\abhis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abhis\.dotnet\tools;C:\Users\abhis\AppData\Roaming\npm;C:\Users\abhis\eclipse\java-2024-09\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="webdriver.edge.verboseLogging" value="true"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="setup[edge](0)" classname="testCase.LandingPageTest" time="1.929">
+    <failure message="Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&apos;t use --user-data-dir &#10;Host info: host: &apos;DESKTOP-15AVCL2&apos;, ip: &apos;192.168.31.237&apos;&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [user-data-dir=C:/temp/edge_...], extensions: []}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir 
+Host info: host: 'DESKTOP-15AVCL2', ip: '192.168.31.237'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [user-data-dir=C:/temp/edge_...], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+	at browserManager.EdgeManager.getDriver(EdgeManager.java:29)
+	at driverManager.CreateDriver.setDriver(CreateDriver.java:23)
+	at driverManager.Base.setup(Base.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+]]></failure>
+    <system-out><![CDATA[=== Browser Param Received: chrome ===
+=== Browser Param Received: edge ===
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="beforeMethodInit" classname="testCase.LandingPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupURL" classname="testCase.LandingPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test1" classname="testCase.LandingPageTest" time="0">
+    <skipped message="Could not start a new session. Response code 500. Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don&apos;t use --user-data-dir &#10;Host info: host: &apos;DESKTOP-15AVCL2&apos;, ip: &apos;192.168.31.237&apos;&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [user-data-dir=C:/temp/edge_...], extensions: []}}]}]"/>
+  </testcase>
+  <testcase name="test1" classname="testCase.LandingPageTest" time="0.007">
+    <failure message="Cannot invoke &quot;com.aventstack.extentreports.ExtentTest.skip(String)&quot; because the return value of &quot;java.lang.ThreadLocal.get()&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.skip(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at listeners.ExtentReportListener.onTestSkipped(ExtentReportListener.java:76)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:99)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:262)
+	at org.testng.internal.invokers.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:500)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+]]></failure>
+  </testcase>
+  <testcase name="test1" classname="testCase.LandingPageTest" time="0.03">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Bestsellers&apos;)]&quot;}&#10;  (Session info: chrome=136.0.7103.114)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7cd3fa0b2673742bc01a25bb001d864a, findElement {using=xpath, value=//a[contains(text(),&apos;Bestsellers&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\abhis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53609/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7cd3fa0b2673742bc01a25bb001d864a" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Bestsellers')]"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cd3fa0b2673742bc01a25bb001d864a, findElement {using=xpath, value=//a[contains(text(),'Bestsellers')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\abhis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53609/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cd3fa0b2673742bc01a25bb001d864a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.LandingPage.clickBestsellers(LandingPage.java:54)
+	at testCase.LandingPageTest.test1(LandingPageTest.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+]]></failure>
+    <system-err><![CDATA[May 21, 2025 11:21:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 11:21:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="test2" classname="testCase.LandingPageTest" time="1.295"/>
+</testsuite>
